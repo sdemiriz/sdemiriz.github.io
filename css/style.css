@@ -71,9 +71,21 @@ body {
     padding: var(--default-padding);
 }
 
+.contact-horizontal {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+}
+
+.contact-method {
+    margin: 0 auto;
+}
+
 .section-title {
     text-align: center;
     text-transform: uppercase;
+
+    padding: 0 0 20px 0;
 }
 
 h1 {
