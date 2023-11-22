@@ -34,11 +34,11 @@ body {
 
 #bio {
     height: 100vh;
-    padding: 40vh 10vh;
+    padding: 20vh 0vh;
 
     display: grid;
-    grid-template-columns: 120px 480px;
-    gap: 10px;
+    grid-template-columns: 15% 75%;
+    gap: 5%;
 }
 
 .bio-headshot {
@@ -67,6 +67,11 @@ body {
 
 #contact {
     padding: 40vh 10vh;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h1 {
