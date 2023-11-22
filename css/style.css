@@ -21,6 +21,8 @@
 
     --bg: var(--nord0);
     --fg: var(--nord4);
+
+    --default-padding: 10vh 0vh;
 }
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
@@ -50,23 +52,23 @@ body {
 }
 
 #experience {
-
+    padding: var(--default-padding);
 }
 
 #skills {
-
+    padding: var(--default-padding);
 }
 
 #software {
-
+    padding: var(--default-padding);
 }
 
 #publications {
-
+    padding: var(--default-padding);
 }
 
 #contact {
-
+    padding: var(--default-padding);
 }
 
 .section-title {
