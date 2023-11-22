@@ -18,10 +18,38 @@
     --nord13: #ebcb8b;
     --nord14: #a3be8c;
     --nord15: #b48ead;
+
+    --BG: var(--nord0);
+    --FG: var(--nord4);
 }
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
 body {
-    background-color: var(--nord0);
+    background-color: var(--BG);
+    color: var(--FG);
     font-family: 'Red Hat Display', sans-serif;
+}
+
+.bio {
+
+}
+
+.experience {
+
+}
+
+.skills {
+
+}
+
+.software {
+
+}
+
+.publications {
+
+}
+
+.contact {
+
 }
