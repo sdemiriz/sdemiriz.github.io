@@ -32,7 +32,7 @@ body {
     margin: auto;
 }
 
-.bio {
+#bio {
     height: 100vh;
     padding: 40vh 10vh;
 
@@ -49,8 +49,8 @@ body {
     grid-column: 2;
 }
 
-.experience {
-
+#experience {
+    padding: 40vh 10vh;
 }
 
 .skills {
