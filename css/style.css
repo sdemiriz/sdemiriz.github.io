@@ -67,22 +67,31 @@ body {
 .software-title {
     font-size: 20px;
     color: var(--nord8);
-    padding: 2vh;
 }
 
 .software-element {
-    text-align: center;
     margin-left: 4vh;
 }
 
 .software-icon {
     height: 5vh;
     width: 5vh;
+    margin-bottom: -12px;
 }
 
 .software-name {
     font-size: 16px;
     color: var(--nord5);
+    text-align: center;
+}
+
+.software-textlist {
+
+}
+
+.software-textlist-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #publications {
