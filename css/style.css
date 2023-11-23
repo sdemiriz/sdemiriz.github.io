@@ -35,9 +35,6 @@ body {
 }
 
 #bio {
-    height: 100vh;
-    padding: 20vh 0vh;
-
     display: grid;
     grid-template-columns: 15% 75%;
     gap: 5%;
