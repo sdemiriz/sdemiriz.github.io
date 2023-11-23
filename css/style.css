@@ -63,6 +63,31 @@ body {
     padding: var(--default-padding);
 }
 
+.software-list {
+    display: flex;
+}
+
+.software-title {
+    font-size: 20px;
+    color: var(--nord8);
+    padding: 2vh;
+}
+
+.software-element {
+    text-align: center;
+    margin-left: 4vh;
+}
+
+.software-icon {
+    height: 5vh;
+    width: 5vh;
+}
+
+.software-name {
+    font-size: 16px;
+    color: var(--nord5);
+}
+
 #publications {
     padding: var(--default-padding);
 }
