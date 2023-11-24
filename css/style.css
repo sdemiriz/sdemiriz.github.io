@@ -108,8 +108,24 @@ body {
     gap: 5%;
 }
 
-.contact-method {
-    margin: 0 auto;
+.contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.contact-icon {
+    height: 10vh;
+    width: 10vh;
+    margin-bottom: -12px;
+}
+
+.contact-element {
+
+    text-align: center;
+}
+
+.contact-text {
 }
 
 .section-title {
