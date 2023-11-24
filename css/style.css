@@ -23,7 +23,8 @@
     --fg: var(--nord4);
 
     --default-padding: 10vh 0vh;
-    --default-width: var(--default-width);
+    --default-width: 70%;
+    --default-margin: 15%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
@@ -100,21 +101,21 @@ body {
 
 #experience {
     width: var(--default-width);
-    margin: 15%;
+    margin: var(--default-margin);
 }
 
 /* SKILLS */
 
 #skills {
     width: var(--default-width);
-    margin: 15%;
+    margin: var(--default-margin);
 }
 
 /* SOFTWARE */
 
 #software {
     width: var(--default-width);
-    margin: 15%;
+    margin: var(--default-margin);
 }
 
 .software-list {
@@ -155,14 +156,14 @@ body {
 
 #publications {
     width: var(--default-width);
-    margin: 15%;
+    margin: var(--default-margin);
 }
 
 /* CONTACT */
 
 #contact {
     padding: var(--default-padding);
-    margin: 15%;
+    margin: var(--default-margin);
 }
 
 .contact-horizontal {
