@@ -34,9 +34,12 @@ body {
     margin: auto;
 }
 
+/* MENUBAR */
+
 #menubar {
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     background: var(--nord10);
     padding: 0px 100px;
 
@@ -68,6 +71,8 @@ body {
     padding: 12px 5px;
 }
 
+/* BIOGRAPHY */
+
 #bio {
     height: 100vh;
 }
@@ -90,13 +95,19 @@ body {
     grid-column: 2;
 }
 
+/* EXPERIENCE */
+
 #experience {
     padding: var(--default-padding);
 }
 
+// SKILLS
+
 #skills {
     padding: var(--default-padding);
 }
+
+/* SOFTWARE */
 
 #software {
     padding: var(--default-padding);
@@ -136,9 +147,13 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* PUBLICATIONS */
+
 #publications {
     padding: var(--default-padding);
 }
+
+/* CONTACT */
 
 #contact {
     padding: var(--default-padding);
