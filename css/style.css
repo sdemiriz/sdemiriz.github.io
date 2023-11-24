@@ -34,6 +34,8 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     width: 100%;
     margin: auto;
+
+    user-select: none;
 }
 
 /* MENUBAR */
