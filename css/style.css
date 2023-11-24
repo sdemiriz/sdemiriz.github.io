@@ -34,6 +34,36 @@ body {
     margin: auto;
 }
 
+#menubar {
+    display: flex;
+    justify-content: space-between;
+    background: var(--nord3)
+}
+
+.menu-icon {
+    width: 5vh;
+    height: 5vh;
+
+    padding-left: 10px;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3%;
+
+    padding-right: 10px;
+}
+
+.menu-element {
+    font-size: 20px; 
+    text-transform: uppercase;
+    text-align: center;
+
+    text-color: var(--nord0);
+    padding: 12px 5px;
+}
+
 #bio {
     display: grid;
     grid-template-columns: 15% 75%;
