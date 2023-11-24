@@ -30,7 +30,7 @@ body {
     background-color: var(--bg);
     color: var(--fg);
     font-family: 'Red Hat Display', sans-serif;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -38,6 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     background: var(--nord10);
+    padding: 0px 100px;
 
     position: sticky;
     top: 0;
@@ -68,9 +69,17 @@ body {
 }
 
 #bio {
+    height: 100vh;
+}
+
+.bio-content {
     display: grid;
     grid-template-columns: 15% 75%;
     gap: 5%;
+
+    background: var(--nord3);
+    width: 70%;
+    margin: 30% 15%;
 }
 
 .bio-headshot {
