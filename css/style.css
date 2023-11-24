@@ -37,7 +37,10 @@ body {
 #menubar {
     display: flex;
     justify-content: space-between;
-    background: var(--nord3)
+    background: var(--nord10);
+
+    position: sticky;
+    top: 0;
 }
 
 .menu-icon {
@@ -60,7 +63,7 @@ body {
     text-transform: uppercase;
     text-align: center;
 
-    text-color: var(--nord0);
+    color: var(--fg);
     padding: 12px 5px;
 }
 
