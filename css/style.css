@@ -167,24 +167,31 @@ body {
 /* SKILLS */
 
 #skills {
-    width: var(--default-width);
-    margin: var(--default-margin);
+    padding: 8vh 10% 10vh 10%;
+    height: 100vh;
 }
 
 /* SOFTWARE */
 
 #software {
-    width: var(--default-width);
-    margin: var(--default-margin);
+    padding: 8vh 10% 10vh 10%;
 }
 
 .software-list {
     display: flex;
+
+    border: 2px solid var(--nord7);
+    box-shadow: 0px 5px 5px #000a;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .software-title {
     font-size: 20px;
     color: var(--nord8);
+
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .software-element {
@@ -204,12 +211,22 @@ body {
 }
 
 .software-textlist {
-
+    border: 2px solid var(--nord7);
+    box-shadow: 0px 5px 5px #000a;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .software-textlist-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.software-text-name {
+    border: 2px solid var(--nord7);
+    box-shadow: 0px 5px 5px #000a;
+    margin: 2px;
+    text-align: center;
 }
 
 /* PUBLICATIONS */
