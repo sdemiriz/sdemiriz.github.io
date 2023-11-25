@@ -110,6 +110,32 @@ body {
     grid-column: 2;
 }
 
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+.down-button {
+    background: var(--nord14);
+    border-radius: 80px;
+
+    box-shadow: 0px 5px 5px #000a;
+}
+
+.down-arrow {
+    width: 5vh;
+    height: 10vh;
+
+    padding: 20px;
+}
+
+.down-arrow:hover {
+    width: 5vh;
+    height: 10vh;
+
+    padding: 30px 20px 30px 20px;
+}
+
 /* EXPERIENCE */
 
 #experience {
