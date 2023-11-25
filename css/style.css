@@ -74,12 +74,11 @@ body {
     text-align: center;
 
     color: var(--fg);
-    padding: 12px 5px;
+    padding: 12px 10px;
 }
 
 .menu-element:hover {
-    color: var(--nord1);
-    background: var(--nord5);
+    background: var(--nord1);
 }
 
 /* BIOGRAPHY */
