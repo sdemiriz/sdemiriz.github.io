@@ -79,6 +79,7 @@ body {
 
 .menu-element:hover {
     background: var(--nord1);
+    box-shadow: inset 0px 2px 2px #000a;
 }
 
 /* BIOGRAPHY */
