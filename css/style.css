@@ -129,17 +129,36 @@ body {
 }
 
 .down-arrow:hover {
-    width: 5vh;
-    height: 10vh;
+    width: 6vh;
+    height: 12vh;
 
-    padding: 30px 20px 30px 20px;
+    padding: 20px;
 }
 
 /* EXPERIENCE */
 
 #experience {
-    width: var(--default-width);
-    margin: var(--default-margin);
+    padding: 8vh 10% 10vh 10%;
+    width: 80%;
+    background: var(--nord4);
+}
+
+.experience-element-left {
+    background: var(--nord10);
+    padding: 4px 10px;
+    margin-left: -10%;
+    border-left: 6px solid var(--nord7);
+
+    box-shadow: 0px 5px 5px #000a;
+}
+
+.experience-element-right {
+    background: var(--nord10);
+    padding: 4px 10px;
+    margin-right: -10%;
+    border-right: 6px solid var(--nord7);
+
+    box-shadow: 0px 5px 5px #000a;
 }
 
 /* SKILLS */
