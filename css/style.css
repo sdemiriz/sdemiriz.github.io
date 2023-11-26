@@ -180,13 +180,11 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 200px);
     gap: 10px;
-
-    border: 1px solid red;
-    padding: 10px;
 }
 
 .software-title {
     margin: auto;
+    font-size: 20px;
 }
 
 .software-element {
