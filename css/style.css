@@ -300,9 +300,10 @@ body {
 /* CONTACT */
 
 #contact {
-    padding: 16vh 10% 10vh 10%;
+    padding: 16vh 10% 0vh 10%;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
+    background: var(--nord3);
 }
 
 .contact-horizontal {
