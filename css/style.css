@@ -279,14 +279,12 @@ body {
 .vertical:hover {
     transform: scale(1.1);
     transition-duration: .25s;
-    z-index: 10000;
     box-shadow: 2px 2px 10px #000a;
 }
 
 .horizontal:hover {
     transform: scale(1.1);
     transition-duration: .25s;
-    z-index: 10000;
     box-shadow: 2px 2px 10px #000a;
 }
 
@@ -300,8 +298,9 @@ body {
 /* CONTACT */
 
 #contact {
-    padding: var(--default-padding);
-    margin: var(--default-margin);
+    padding: 16vh 10% 10vh 10%;
+    width: 80%;
+    height: 100vh;
 }
 
 .contact-horizontal {
