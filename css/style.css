@@ -126,16 +126,14 @@ body {
 
 .down-arrow {
     width: 5vh;
-    height: 10vh;
+    height: 5vh;
 
     padding: 20px;
 }
 
-.down-arrow:hover {
-    width: 6vh;
-    height: 12vh;
-
-    padding: 20px;
+.down-button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.25s;
 }
 
 /* EXPERIENCE */
