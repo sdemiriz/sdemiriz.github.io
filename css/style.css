@@ -43,37 +43,28 @@ body {
 #menubar {
     display: flex;
     justify-content: center;
-    gap: 100px;
-    background: var(--nord9);
-    padding: 0px 100px;
 
+    background: var(--nord9);
     position: sticky;
     z-index: 5000;
-    top: 10px;
-    margin: 0px 10px;
+    top: 0px;
 
-    box-shadow: 0px 5px 5px #000a;
+    box-shadow: 0px 4px 4px #000a;
 }
 
 .menu-icon {
     width: 5vh;
     height: 5vh;
-
     padding-left: 10px;
 }
 
 .menu-buttons {
     display: flex;
-    justify-content: center;
-    gap: 3%;
-
-    padding-right: 10px;
+    gap: 10px;
 }
 
 .menu-element {
     font-size: 20px; 
-    text-align: center;
-
     color: var(--fg);
     border-bottom: 2px solid #0000;
     padding: 10px 10px;
@@ -82,7 +73,6 @@ body {
 .menu-element:hover {
     background: var(--nord10);
     border-bottom: 2px solid var(--nord12);
-    padding: 10px 10px;
 }
 
 /* BIOGRAPHY */
