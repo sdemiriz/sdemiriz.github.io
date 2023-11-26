@@ -260,11 +260,9 @@ body {
     width: 10vh;
 }
 
-.contact-element {
-    text-align: center;
-}
-
-.contact-text {
+.contact-icon:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
 }
 
 /* GENERICS */
