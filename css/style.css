@@ -48,6 +48,7 @@ body {
     padding: 0px 100px;
 
     position: sticky;
+    z-index: 5000;
     top: 10px;
     margin: 0px 10px;
 
