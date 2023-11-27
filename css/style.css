@@ -89,14 +89,14 @@ body {
 }
 
 
-/* BIOGRAPHY */
+/* INTRO */
 
-#bio {
+#intro {
     min-height: 100vh;
     background: var(--nord10);
 }
 
-.bio-container {
+.intro-container {
     width: 75%;
     height: 80vh;
     margin: auto;
@@ -108,11 +108,11 @@ body {
     gap: 20px;
 }
 
-.bio-container li {
+.intro-container li {
     list-style: none;
 }
 
-.bio-container a {
+.intro-container a {
     width: 160px;
 
     text-align: center;
@@ -125,7 +125,7 @@ body {
     border: 1px solid var(--nord4);
 }
 
-.bio-container a:hover {
+.intro-container a:hover {
     transform: scale(1.1);
     transition-duration: .2s;
 
