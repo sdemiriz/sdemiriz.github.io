@@ -295,7 +295,8 @@ body {
 /* PUBLICATIONS */
 
 #publications {
-    padding: 8vh 10% 10vh 10%;
+    padding: 8vh 10% 8vh 10%;
+    height: 100vh;
     width: 80%;
 }
 
