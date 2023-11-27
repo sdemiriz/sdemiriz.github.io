@@ -286,6 +286,13 @@ body {
     width: 80%;
 }
 
+.publication {
+    background: var(--nord10);
+    padding: 20px;
+
+    border-left: 5px solid var(--nord7);
+}
+
 /* CONTACT */
 
 #contact {
