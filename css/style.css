@@ -56,13 +56,13 @@ body {
     padding-left: 24px;
 }
 
-.nav-buttons {
+#navbar li {
     display: flex;
     gap: 10px;
     margin: auto 24px auto 0px;
 }
 
-.nav-buttons a {
+#navbar li a {
     font-size: 20px;
     position: relative;
 
@@ -71,7 +71,7 @@ body {
     padding: 4px;
 }
 
-.nav-buttons a::before {
+#navbar li a::before {
     content: "";
     position: absolute;
     display: block;
@@ -84,7 +84,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.nav-buttons a:hover::before {
+#navbar li a:hover::before {
     transform: scaleX(1);
 }
 
