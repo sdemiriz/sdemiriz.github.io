@@ -145,20 +145,27 @@ body {
 #experience {
   padding: 8vh 10% 10vh 10%;
   width: 80%;
+  height: 100%;
   background: var(--nord3);
 }
 
-.experience-element {
-  background: var(--nord10);
-  padding: 4px 20px;
+.timeline {
+  border-left: 4px solid var(--nord10);
 }
 
-.experience-element::before {
+.slot {
+  background: var(--nord10);
+  padding: 4px 0px;
+}
+
+.slot::before {
   content: "";
   position: absolute;
+  vertical-align: bottom;
   width: 20px;
   height: 20px;
-  left: 7.5%;
+  left: 8.75%;
+  /* bottom: 10px; */
 
   border: 4px solid var(--nord10);
   border-radius: 50%;
