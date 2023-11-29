@@ -140,11 +140,6 @@ body {
   color: var(--nord13);
 }
 
-.underline {
-  color: var(--nord13);
-  text-decoration: underline;
-}
-
 /* EXPERIENCE */
 
 #experience {
