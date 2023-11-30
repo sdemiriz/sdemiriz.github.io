@@ -105,31 +105,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 .intro-container li {
   list-style: none;
-}
-
-.intro-container a {
-  width: 200px;
-
-  text-align: center;
-  padding: 20px 10px;
-  color: var(--nord4);
-  background: #0000;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  border: 1px solid var(--nord4);
-}
-
-.intro-container a:hover {
-  transform: scale(1.1);
-  transition-duration: 0.2s;
-
-  box-shadow: 0px 0px 6px 0px var(--nord3);
 }
 
 .intro-container p {
@@ -138,6 +118,42 @@ body {
 
 .highlight {
   color: var(--nord13);
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  margin-top: 10px;
+  width: 60%;
+}
+
+.contact-list::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 130px;
+  left: 120px;
+
+  background-color: #fff;
+}
+
+.contact-list::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 130px;
+  right: 120px;
+
+  background-color: #fff;
+}
+
+.contact-list img {
+  height: 60px;
+  width: 60px;
 }
 
 /* EXPERIENCE */
@@ -316,37 +332,6 @@ body {
 .publication a {
   text-decoration: none;
   color: var(--nord4);
-}
-
-/* CONTACT */
-
-#contact {
-  padding: 16vh 10% 0vh 10%;
-  width: 80%;
-  height: 80vh;
-  background: var(--nord3);
-}
-
-.contact-horizontal {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  gap: 10%;
-}
-
-.contact-list {
-  display: flex;
-  justify-content: center;
-  gap: 10%;
-}
-
-.contact-icon {
-  height: 10vh;
-  width: 10vh;
-}
-
-.contact-icon:hover {
-  transform: scale(1.2);
-  transition-duration: 0.5s;
 }
 
 /* GENERICS */
