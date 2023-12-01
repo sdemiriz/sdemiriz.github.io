@@ -54,7 +54,7 @@ body {
 }
 
 #navbar p {
-  font-size: 24px;
+  font-size: 28px;
   padding-left: 24px;
   margin: auto 0;
 }
@@ -176,7 +176,7 @@ body {
 }
 
 .timeline {
-  border-left: 4px solid var(--nord10);
+  border-left: 4px solid var(--nord9);
 }
 
 .slot {
