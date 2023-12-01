@@ -221,6 +221,42 @@ body {
   flex-direction: column;
 }
 
+.skills-section {
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.skills-section img {
+  width: 40px;
+  height: 40px;
+
+  margin-bottom: -10px;
+}
+
+.skills-section ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.skills-section ul p {
+  text-align: center;
+}
+
+.skills-section::before {
+  content: "";
+  position: absolute;
+  background-color: #f00;
+  height: 20px;
+  width: 20px;
+
+  left: 85px;
+  margin-top: 15px;
+}
+
 /* PUBLICATIONS */
 
 #publications {
