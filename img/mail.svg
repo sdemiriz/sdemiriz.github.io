@@ -23,17 +23,17 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="256"
-     inkscape:cx="9.2050781"
-     inkscape:cy="10.947266"
-     inkscape:window-width="2520"
-     inkscape:window-height="1344"
-     inkscape:window-x="16"
-     inkscape:window-y="72"
+     inkscape:zoom="32"
+     inkscape:cx="7.765625"
+     inkscape:cy="10.671875"
+     inkscape:window-width="1880"
+     inkscape:window-height="1040"
+     inkscape:window-x="2576"
+     inkscape:window-y="376"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2558" />
   <path
-     d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"
+     d="m 96.5625,-93.75 q -39.703125,0 -67.976563,-28.27344 Q 0.31250013,-150.29687 0.31250013,-190 v -577.5 q 0,-39.70313 28.27343687,-67.97656 Q 56.859375,-863.75 96.5625,-863.75 h 770 q 39.70313,0 67.97656,28.27344 28.27344,28.27343 28.27344,67.97656 V -190 q 0,39.70313 -28.27344,67.97656 Q 906.26563,-93.75 866.5625,-93.75 Z m 385,-336.87499 -385,-240.62501 V -190 h 770 v -481.25 z m 0,-96.25 385,-240.62501 h -770 z M 96.5625,-671.25 V -767.5 -190 Z"
      id="path2556"
-     style="fill:#d8dee9;fill-opacity:1" />
+     style="fill:#d8dee9;fill-opacity:1;stroke-width:1.20313" />
 </svg>
