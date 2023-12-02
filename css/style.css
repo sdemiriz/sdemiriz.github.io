@@ -232,29 +232,30 @@ body {
   padding: 20px;
 }
 
-.skills-section div {
+.skills-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: -20px;
   padding: 5px;
 }
 
-.skills-section img {
+.icon-text img {
   width: 50px;
   height: 50px;
-}
-
-.skills-section ul {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
 }
 
 .skills-section::before {
   content: "";
   position: absolute;
-  background-color: #f00;
+  background-color: var(--nord1);
   height: 20px;
   width: 20px;
 
