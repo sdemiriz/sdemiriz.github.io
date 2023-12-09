@@ -45,8 +45,7 @@ body {
 #navbar {
   display: flex;
   justify-content: space-between;
-  height: 80px;
-
+  height: 5vh;
   position: sticky;
   z-index: 5000;
   top: 0px;
@@ -95,21 +94,20 @@ body {
 /* INTRO */
 
 #intro {
-  min-height: 100vh;
-  padding-top: 80px;
+  height: 100vh;
   background: var(--nord10);
 }
 
 .intro-container {
-  width: 75%;
-  height: 80vh;
-  margin: auto;
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 3vh;
 }
 
 .intro-container li {
@@ -125,40 +123,35 @@ body {
 }
 
 .contact-list {
+  width: 60vw;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-
-  margin-top: 10px;
-  width: 60%;
+  gap: 5vw;
 }
 
-.contact-list::before {
+.contact-list::before,
+.contact-list::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 130px;
-  left: 120px;
+  width: 20vw;
+  left: 10vw;
 
   background-color: var(--nord4);
 }
 
 .contact-list::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 130px;
-  right: 120px;
-
-  background-color: var(--nord4);
+  left: unset;
+  right: 10vw;
 }
 
 .contact-list img {
-  height: 60px;
-  width: 60px;
-  opacity: 0.8;
+  height: 3em;
+  width: 3em;
+  opacity: 0.75;
 }
 
 .contact-list img:hover {
