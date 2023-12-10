@@ -262,6 +262,7 @@ body {
 
   background-color: var(--nord0);
   padding: 1em;
+  margin-bottom: -2em;
   gap: .5em;
 }
 
@@ -281,6 +282,21 @@ body {
   width: 2.5em;
   height: 2.5em;
   padding-bottom: 1em;
+}
+
+.skills-subgroup {
+  margin-left: 2em;
+  background-color: var(--nord2);
+  padding: 1em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skills-subgroup ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .footnote {
