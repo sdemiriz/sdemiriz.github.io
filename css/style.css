@@ -242,35 +242,43 @@ body {
 /* SKILLS */
 
 #skills {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .skills-container {
-  padding: 0 10vw;
+  padding: 5vh 10vw;
   width: 80vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: start;
   background-color: var(--nord10);
+  gap: 2em;
 }
 
 .skills-group {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  background-color: var(--nord0);
+  padding: 1em;
+  gap: .5em;
+}
+
+.skills-group p {
+  max-width: 50%;
 }
 
 .icon-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 5px;
+  padding: 1em;
 }
 
 .icon-text img {
-  width: 50px;
-  height: 50px;
+  width: 2.5em;
+  height: 2.5em;
+  align-self: center;
 }
 
 .footnote {
