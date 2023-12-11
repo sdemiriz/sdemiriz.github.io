@@ -285,13 +285,22 @@ body {
 }
 
 .skills-subgroup {
-  margin-left: 2em;
   background-color: var(--nord2);
-  padding: 1em;
 
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  padding: 0 1em;
+  opacity: 0;
+  max-height: 0;
+  transition: padding 0.4s ease-in, max-height 0.4s ease-in, opacity 0.4s ease-in;
+}
+
+.skills-group:hover+.skills-subgroup {
+  padding: 1em 1em;
+  opacity: 1;
+  max-height: 1em;
 }
 
 .skills-subgroup ul {
