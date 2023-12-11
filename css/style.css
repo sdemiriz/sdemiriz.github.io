@@ -316,6 +316,10 @@ html {
   color: var(--nord2);
 }
 
+.spacer {
+  margin-bottom: .5em;
+}
+
 /* PUBLICATIONS */
 
 #publications {
