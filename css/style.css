@@ -35,7 +35,6 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 20px;
   margin: 0;
-
   user-select: none;
 }
 
@@ -47,7 +46,6 @@ html {
 
 #navbar {
   height: 5vh;
-
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -113,7 +111,7 @@ html {
   }
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   #navbar p {
     font-size: 1.5em;
   }
@@ -123,7 +121,7 @@ html {
   }
 }
 
-@media (min-width: 1200) {
+@media (min-width: 1200px) {
   #navbar p {
     font-size: 1.5em;
   }
@@ -144,7 +142,6 @@ html {
   height: 100vh;
   width: 80vw;
   margin: 0 auto;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,7 +163,6 @@ html {
 
 .contact-list {
   width: 60vw;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -181,7 +177,6 @@ html {
   height: 2px;
   width: 20vw;
   left: 10vw;
-
   background-color: var(--nord4);
 }
 
@@ -200,6 +195,64 @@ html {
   transform: scale(1.1);
   transition-duration: 0.25s;
   opacity: 1;
+}
+
+@media (min-width: 576px) {
+
+  .contact-list {
+    gap: 10vw;
+  }
+
+  .contact-list::after,
+  .contact-list::before {
+    content: none;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .contact-list {
+    gap: 10vw;
+  }
+
+  .contact-list::after,
+  .contact-list::before {
+    content: "";
+    width: 5vw;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .contact-list {
+    gap: 7.5vw;
+  }
+
+  .contact-list::after,
+  .contact-list::before {
+    content: "";
+    width: 10vw;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .intro-container {
+    width: 60vw;
+  }
+
+  .contact-list {
+    width: 60vw;
+    gap: 5vw;
+  }
+
+  .contact-list::before {
+    left: 20vw;
+  }
+
+  .contact-list::after {
+    right: 20vw;
+  }
 }
 
 /* .resume-download { */
