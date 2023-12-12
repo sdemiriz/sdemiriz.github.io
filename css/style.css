@@ -34,8 +34,7 @@ body {
   color: var(--fg);
   font-family: "Red Hat Display", sans-serif;
   font-size: 20px;
-  width: 100%;
-  margin: auto;
+  margin: 0;
 
   user-select: none;
 }
@@ -61,6 +60,7 @@ html {
 #navbar p {
   font-size: 1.5em;
   margin: auto 0;
+  padding-bottom: .25em;
 }
 
 #navbar li {
@@ -91,6 +91,46 @@ html {
 #navbar li a:hover::before {
   transform: scaleX(1.1);
   transition: transform 0.3s ease;
+}
+
+@media (min-width: 576px) {
+  #navbar p {
+    font-size: 1em;
+  }
+
+  #navbar li a {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar p {
+    font-size: 1.5em;
+  }
+
+  #navbar li a {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 992) {
+  #navbar p {
+    font-size: 1.5em;
+  }
+
+  #navbar li a {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200) {
+  #navbar p {
+    font-size: 1.5em;
+  }
+
+  #navbar li a {
+    font-size: 1em;
+  }
 }
 
 /* INTRO */
