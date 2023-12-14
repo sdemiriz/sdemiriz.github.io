@@ -337,7 +337,113 @@ html {
   left: 12em;
 
   background-color: var(--nord9);
-  box-shadow: 0px 2px 6px 0px #000a;
+  box-shadow: 0px 4px 4px 0px #000a;
+}
+
+@media (min-width: 576px) {
+  .timeline {
+    padding: 0 0 0 4em;
+  }
+  .title {
+    font-size: 1em;
+  }
+  .position {
+    font-size: 0.75em;
+  }
+  .date {
+    width: 1em;
+    font-size: 0.75em;
+  }
+  .responsibilities {
+    font-size: 0.75em;
+  }
+  .slot::before {
+    left: 4.5em;
+  }
+
+  .timeline::before {
+    left: 5.2em;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .timeline {
+    padding: 0 0 0 4em;
+  }
+  .title {
+    font-size: 1.25em;
+  }
+  .position {
+    font-size: 1em;
+  }
+  .date {
+    width: 4em;
+    font-size: 1em;
+    left: 1em;
+  }
+  .responsibilities {
+    font-size: 1em;
+  }
+  .slot::before {
+    left: 5em;
+  }
+
+  .timeline::before {
+    left: 5.7em;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .timeline {
+    padding: 0 0 0 6em;
+  }
+  .title {
+    font-size: 1.25em;
+  }
+  .position {
+    font-size: 1em;
+  }
+  .date {
+    width: 4em;
+    font-size: 1em;
+    left: 3em;
+  }
+  .responsibilities {
+    font-size: 1em;
+  }
+  .slot::before {
+    left: 7em;
+  }
+  .timeline::before {
+    left: 7.7em;
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline {
+    padding: 0 0 0 6em;
+  }
+  .title {
+    font-size: 1.25em;
+  }
+  .position {
+    font-size: 1em;
+  }
+  .date {
+    width: 4em;
+    font-size: 1em;
+    left: 3em;
+  }
+  .responsibilities {
+    font-size: 1em;
+  }
+  .slot::before {
+    left: 7em;
+  }
+  .timeline::before {
+    left: 7.7em;
+    height: 100%;
+  }
 }
 
 /* SKILLS */
