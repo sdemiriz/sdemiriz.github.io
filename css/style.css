@@ -58,7 +58,7 @@ html {
 #navbar p {
   font-size: 1.5em;
   margin: auto 0;
-  padding-bottom: .25em;
+  padding-bottom: 0.25em;
 }
 
 #navbar li {
@@ -71,7 +71,7 @@ html {
   position: relative;
   color: var(--nord4);
   text-decoration: none;
-  padding-bottom: .25em;
+  padding-bottom: 0.25em;
 }
 
 #navbar li a::before {
@@ -198,7 +198,6 @@ html {
 }
 
 @media (min-width: 576px) {
-
   .contact-list {
     gap: 10vw;
   }
@@ -210,7 +209,6 @@ html {
 }
 
 @media (min-width: 768px) {
-
   .contact-list {
     gap: 10vw;
   }
@@ -223,7 +221,6 @@ html {
 }
 
 @media (min-width: 992px) {
-
   .contact-list {
     gap: 7.5vw;
   }
