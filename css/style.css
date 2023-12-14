@@ -290,12 +290,12 @@ html {
 }
 
 .responsibilities {
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .responsibilities div {
-  margin-left: .5em;
-  padding: .25em 0;
+  margin-left: 0.5em;
+  padding: 0.25em 0;
 }
 
 .title {
@@ -310,7 +310,7 @@ html {
 .date {
   position: absolute;
   left: 3.5em;
-  margin: .1em 0;
+  margin: 0.1em 0;
   font-style: italic;
 }
 
@@ -321,7 +321,7 @@ html {
   width: 1em;
   height: 1em;
   left: 11.3em;
-  margin: .1em 0;
+  margin: 0.1em 0;
 
   border: 4px solid var(--nord9);
   border-radius: 50%;
