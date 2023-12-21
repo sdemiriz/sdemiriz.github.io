@@ -583,7 +583,7 @@ html {
 
 .me {
   font-weight: bold;
-  font-size: 1.25em;
+  color: var(--nord13);
 }
 
 /* GENERICS */
