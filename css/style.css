@@ -519,6 +519,11 @@ html {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.skills-subgroup ul div {
+  font-size: 0.75em;
+  padding: 0.25em;
+}
+
 .footnote {
   color: var(--nord2);
 }
