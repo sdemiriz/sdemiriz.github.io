@@ -1,0 +1,5 @@
+- title: "title"
+  workplace: "workplace"
+  date_start: "date1"
+  date_end: "date2"
+  responsibilities: ["a", "b", "c"]

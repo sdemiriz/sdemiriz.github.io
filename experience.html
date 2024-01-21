@@ -8,9 +8,16 @@ permalink: /experience/
 <div>Jul '21 - Nov '23</div>
 <div>Computational Biologist - Sequence Bioinformatics Inc.</div>
 <div>
-  Lead the development of scalable and reproducible GWAS and ROH analysis
-  pipelines to identify genotype-phenotype associations in company's
-  Newfoundland founder population cohort
+  {% for exp in site.data.experience %}
+  <div>{{ exp.title }}</div>
+  <div>{{ exp.workplace }}</div>
+  <div>{{ exp.date_start }} - {{ exp.date_end }}</div>
+  <ul>
+    {% for responsibility in exp.responsibilities %}
+    <div>{{ responsibility }}</div>
+    {% endfor %}
+  </ul>
+  {% endfor %}
 </div>
 <div>
   Implemented standalone and pipeline step scripts for genomic data analysis and
