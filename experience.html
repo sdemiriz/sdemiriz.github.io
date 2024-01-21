@@ -5,84 +5,15 @@ permalink: /experience/
 ---
 
 <!doctype html>
-<div>Jul '21 - Nov '23</div>
-<div>Computational Biologist - Sequence Bioinformatics Inc.</div>
 <div>
   {% for exp in site.data.experience %}
-  <div>{{ exp.title }}</div>
-  <div>{{ exp.workplace }}</div>
+  <div>{{ exp.title }} - {{ exp.workplace }}</div>
   <div>{{ exp.date_start }} - {{ exp.date_end }}</div>
   <ul>
     {% for responsibility in exp.responsibilities %}
     <div>{{ responsibility }}</div>
     {% endfor %}
   </ul>
+  <br />
   {% endfor %}
-</div>
-<div>
-  Implemented standalone and pipeline step scripts for genomic data analysis and
-  visualization to identify genes of interest for an international collaboration
-  with pharma company
-</div>
-<div>
-  Combined internal and public data sources to characterize the distribution of
-  the founder effect across Newfoundland and its relation to source populations
-  in Ireland and Britain
-</div>
-
-<br />
-
-<div>Jul '20 - Mar '21</div>
-<div>Research Programmer - BC Genome Sciences Centre</div>
-<div>
-  Performed QC on inbound AML NGS data using standard NGS quality metrics to
-  ensure clean data input for lab's internal analysis platform
-</div>
-<div>
-  Streamlined existing QC and visualization scripts and refactored for
-  flexibility of use for future QC efforts
-</div>
-<div>
-  Addressed graduate student questions about ways of solving AML research
-  questions by showcasing scripting and command line approaches to tackling data
-  transformations
-</div>
-
-<br />
-
-<div>May - Sep '18</div>
-<div>Biosensor R&D Programmer - CiBER Laboratory, Simon Fraser University</div>
-<div>
-  Automated biosensor voltage response curve data processing and visualization
-  for display and diagnosis of individual sensor instances to identify issues in
-  the fabrication process
-</div>
-<div>
-  Screened hundreds of sensor instances during development to achieve sample
-  sizes necessary for confidence in manufacturing
-</div>
-<div>
-  Implemented and presented metrics for determining biosensor instance success
-  based on response pattern to inform lab heads on progress made on the
-  development of the manufacturing process
-</div>
-
-<br />
-
-<div>May - Aug '16</div>
-<div>
-  Genetics Co-op Student - A.S. Institute of Experimental Medicine, Istanbul
-  University
-</div>
-<div>
-  Carried out PCR, DNA and RNA sample isolations from clinical samples and
-  performed sample QC
-</div>
-<div>
-  Maintained populations of five widely used cancer cell lines in cell culture
-  laboratory
-</div>
-<div>
-  Lead and supported four other co-op students during their initial time at the
-  lab
 </div>
