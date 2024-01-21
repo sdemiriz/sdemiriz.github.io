@@ -1,0 +1,17 @@
+- header: "Comfortably work with the following languages for data analysis, ETL and visualization tasks"
+  list: ["Python", "R", "Bash", "SQL", "Julia"]
+
+- header: "Use good software development practices to ensure reproducibility and robustness of written code"
+  list: ["Version control", "Unit testing", "Documentation"]
+
+- header: "Work with various workflow management utilities to implement robust, reproducible and scalable pipelines"
+  list: ["Snakemake", "Nextflow", "SLURM"]
+
+- header: "Work on a variety of operating systems, including in the cloud and in restricted data access environments"
+  list: ["Linux", "MacOS", "Amazon Web Services"]
+
+- header: "Implement clean and approachable web content"
+  list: ["HTML", "CSS", "Jekyll"]
+
+- header: "Previous experience working with low-level languages"
+  list: ["C", "C++"]
