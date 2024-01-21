@@ -5,8 +5,8 @@ permalink: /experience/
 ---
 
 <!doctype html>
+{% for exp in site.data.experience %}
 <div>
-  {% for exp in site.data.experience %}
   <div>{{ exp.title }} - {{ exp.workplace }}</div>
   <div>{{ exp.date_start }} - {{ exp.date_end }}</div>
   <ul>
@@ -15,5 +15,5 @@ permalink: /experience/
     {% endfor %}
   </ul>
   <br />
-  {% endfor %}
 </div>
+{% endfor %}
