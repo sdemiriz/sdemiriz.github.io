@@ -17,7 +17,7 @@
     [
       "Performed QC on inbound AML NGS data using standard NGS quality metrics to ensure clean data input for lab's internal analysis platform",
       "Streamlined existing QC and visualization scripts and refactored for flexibility of use for future QC efforts",
-      "Addressed graduate student questions about ways of solving AML research questions by showcasing scripting and command line approaches to tackling data transformations",
+      "Addressed graduate student questions about ways of solving AML research questions by showcasing computational approaches to data analysis",
     ]
 
 - title: "Biosensor R&D Programmer"
