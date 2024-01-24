@@ -6,12 +6,12 @@ permalink: /experience/
 
 <!doctype html>
 {% for exp in site.data.experience %}
-<div>
-  <div>{{ exp.title }} - {{ exp.workplace }}</div>
-  <div>{{ exp.date_start }} - {{ exp.date_end }}</div>
-  <ul>
+<div class="experience">
+  <div class="workplace">{{ exp.title }} - {{ exp.workplace }}</div>
+  <div class="date">{{ exp.date_start }} - {{ exp.date_end }}</div>
+  <ul class="responsibilities">
     {% for responsibility in exp.responsibilities %}
-    <div>{{ responsibility }}</div>
+    <div class="responsibility">{{ responsibility }}</div>
     {% endfor %}
   </ul>
   <br />
