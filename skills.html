@@ -6,11 +6,13 @@ permalink: /skills/
 
 <!doctype html>
 {% for skill in site.data.skills %}
-<div>{{ skill.header }}</div>
-<ul>
-  {% for s in skill.list %}
-  <div>{{ s }}</div>
-  {% endfor %}
-</ul>
+<div class="skill-group">
+  <div class="skill-header">{{ skill.header }}</div>
+  <ul class="skill-list">
+    {% for s in skill.list %}
+    <div class="skill">{{ s }}</div>
+    {% endfor %}
+  </ul>
+</div>
 <br />
 {% endfor %}
