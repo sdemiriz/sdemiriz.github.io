@@ -6,10 +6,10 @@ permalink: /publications/
 
 <!doctype html>
 {% for pub in site.data.publications %}
-<div>
-  <div>{{ pub.title }}</div>
-  <div>{{ pub.authors }}</div>
-  <a href={{ pub.link }}>{{ pub.access }}</a>
+<div class="publication">
+  <div class="title">{{ pub.title }}</div>
+  <div class="authors">{{ pub.authors }}</div>
+  <a class="link" href={{ pub.link }}>{{ pub.access }}</a>
 </div>
 <br />
 {% endfor %}
