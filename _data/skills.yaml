@@ -1,17 +1,23 @@
 - header: "Languages I can comfortably work with"
   list: ["Python", "R", "Bash", "SQL", "Julia"]
+  img: ["python.svg", "R.svg", "bash.svg", "sql.svg", "julia.svg"]
 
 - header: "Good software development practices I use"
   list: ["Version control", "Unit testing", "Documentation"]
+  img: ["git.svg", "unit-testing.svg", "documentation.svg"]
 
 - header: "Workflow management tools I can work with"
   list: ["Snakemake", "Nextflow", "SLURM"]
+  img: ["snakemake.svg", "nextflow.svg", "slurm.svg"]
 
 - header: "Operating systems and cloud infrastructure I am familiar with"
   list: ["Linux", "MacOS", "Amazon Web Services"]
+  img: ["linux.svg", "macos.svg", "aws.svg"]
 
 - header: "Web content development tools I can work with"
   list: ["HTML", "CSS", "Jekyll"]
+  img: ["html.svg", "css.svg", "jekyll.svg"]
 
 - header: "Low level languages I have experience working with"
   list: ["C", "C++"]
+  img: ["C.svg", "Cpp.svg"]
