@@ -1,23 +1,31 @@
 - header: "Languages I can comfortably work with"
   list: ["Python", "R", "Bash", "SQL", "Julia"]
-  img: ["python.svg", "R.svg", "bash.svg", "sql.svg", "julia.svg"]
+  img:
+    [
+      "/assets/python.svg",
+      "/assets/R.svg",
+      "/assets/bash.svg",
+      "/assets/sql.svg",
+      "/assets/julia.svg",
+    ]
 
 - header: "Good software development practices I use"
   list: ["Version control", "Unit testing", "Documentation"]
-  img: ["git.svg", "unit-testing.svg", "documentation.svg"]
+  img:
+    ["/assets/git.svg", "/assets/unit-testing.png", "/assets/documentation.svg"]
 
 - header: "Workflow management tools I can work with"
   list: ["Snakemake", "Nextflow", "SLURM"]
-  img: ["snakemake.svg", "nextflow.svg", "slurm.svg"]
+  img: ["/assets/snakemake.svg", "/assets/nextflow.svg", "/assets/slurm.svg"]
 
 - header: "Operating systems and cloud infrastructure I am familiar with"
   list: ["Linux", "MacOS", "Amazon Web Services"]
-  img: ["linux.svg", "macos.svg", "aws.svg"]
+  img: ["/assets/linux.svg", "/assets/macos.svg", "/assets/aws.svg"]
 
 - header: "Web content development tools I can work with"
   list: ["HTML", "CSS", "Jekyll"]
-  img: ["html.svg", "css.svg", "jekyll.svg"]
+  img: ["/assets/html.svg", "/assets/css.svg", "/assets/jekyll.svg"]
 
 - header: "Low level languages I have experience working with"
   list: ["C", "C++"]
-  img: ["C.svg", "Cpp.svg"]
+  img: ["/assets/C.svg", "/assets/Cpp.svg"]

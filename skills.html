@@ -11,6 +11,8 @@ permalink: /skills/
   <ul class="skill-list">
     {% for s in skill.list %}
     <div class="skill">{{ s }}</div>
+    {% endfor %} {% for i in skill.img %}
+    <img class="skill-img" src={{ i }}/>
     {% endfor %}
   </ul>
 </div>
