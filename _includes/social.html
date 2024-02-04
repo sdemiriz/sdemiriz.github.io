@@ -14,12 +14,24 @@
   <li>
     <a
       href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
-      ><svg class="svg-icon">
+    >
+      <svg class="svg-icon">
         <use
           xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"
         ></use>
       </svg>
       <span class="username">{{ site.linkedin_username| escape }}</span></a
+    >
+  </li>
+  {%- endif -%} {%- if site.orcid_code -%}
+  <li>
+    <a href="https://www.orcid.org/{{ site.orcid_code | cgi_escape | escape }}">
+      <svg class="svg-icon">
+        <use
+          xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"
+        ></use>
+      </svg>
+      <span class="username">{{ site.orcid_code| escape }}</span></a
     >
   </li>
   {%- endif -%}
