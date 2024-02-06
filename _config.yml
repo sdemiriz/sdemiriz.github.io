@@ -20,11 +20,12 @@
 
 title: Sedat Demiriz
 email: sedatdemiriz97@gmail.com
+phone: 778-866-9440
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: sdemiriz
 linkedin_username: sdemiriz
-orcid_code: "0009-0007-8685-8313"
+orcid_code: 0009-0007-8685-8313
 
 # Build settings
 theme: minima
