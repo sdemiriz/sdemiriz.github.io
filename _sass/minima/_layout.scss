@@ -254,15 +254,18 @@ footer-col-2 {
   @include relative-font-size(1.25);
   margin-top: $spacing-unit / 2;
   letter-spacing: -1px;
+  color: #d8dee9;
 }
 
 .date {
   @include relative-font-size(1.1);
   margin-bottom: $spacing-unit / 2;
   letter-spacing: -1px;
+  color: #d8dee9;
 }
 
 .responsibility {
   list-style-type: disc;
   line-height: $base-line-height * $base-font-size;
+  color: #d8dee9;
 }
