@@ -8,10 +8,8 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.title -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
+            {%- include contact.html -%}
+          </li>
         </ul>
       </div>
 

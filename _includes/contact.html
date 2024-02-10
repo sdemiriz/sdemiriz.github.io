@@ -1,0 +1,30 @@
+<ul class="social-media-list">
+  {%- if site.title -%}
+  <li>
+    <div>Sedat Demiriz</div>
+  </li>
+  {%- endif -%} {%- if site.email -%}
+  <li>
+    <a href="mailto:{{ site.email| cgi_escape | escape }}"
+      ><svg class="svg-icon">
+        <use
+          xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"
+        ></use>
+      </svg>
+      <span class="username">{{ site.email| escape }}</span></a
+    >
+  </li>
+  {%- endif -%} {%- if site.phone -%}
+  <li>
+    <a href="tel:+1-{{ site.phone| cgi_escape | escape }}"
+      ><svg class="svg-icon">
+        <use
+          xlink:href="{{ '/assets/minima-social-icons.svg#phone' | relative_url }}"
+        ></use>
+      </svg>
+      <span class="username">{{ site.phone| escape }}</span></a
+    >
+  </li>
+
+  {%- endif -%}
+</ul>
