@@ -8,7 +8,10 @@ permalink: /experience/
 <div class="experiencewrapper">
   {% for exp in site.data.experience %}
   <div class="experience">
-    <div class="workplace">{{ exp.title }} - {{ exp.workplace }}</div>
+    <div>
+      <span class="title">{{ exp.title }}</span> -
+      <span class="workplace">{{ exp.workplace }}</span>
+    </div>
     <div class="date">{{ exp.date_start }} - {{ exp.date_end }}</div>
     <ul class="responsibilities">
       {% for responsibility in exp.responsibilities %}

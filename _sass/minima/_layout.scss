@@ -252,10 +252,15 @@ footer-col-2 {
   padding: $spacing-unit / 2;
 }
 
-.workplace {
+.title {
   @include relative-font-size(2);
+  letter-spacing: -1px;
+}
+
+.workplace {
+  @include relative-font-size(1.5);
   margin-top: $spacing-unit / 2;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   color: $text-color;
 }
 
