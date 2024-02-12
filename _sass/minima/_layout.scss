@@ -250,26 +250,24 @@ footer-col-2 {
   @include relative-font-size(1.25);
   margin-bottom: $spacing-unit / 2;
   padding: $spacing-unit / 2;
-
-  box-shadow: 0px 4px 4px #00000080;
 }
 
 .workplace {
   @include relative-font-size(2);
   margin-top: $spacing-unit / 2;
-  letter-spacing: -1px;
-  color: #d8dee9;
+  letter-spacing: -2px;
+  color: $text-color;
 }
 
 .date {
   @include relative-font-size(1.25);
   margin-bottom: $spacing-unit / 2;
   letter-spacing: -1px;
-  color: #d8dee9;
+  color: $text-color;
 }
 
 .responsibility {
   list-style-type: disc;
   line-height: $base-line-height * $base-font-size;
-  color: #d8dee9;
+  color: $text-color;
 }
