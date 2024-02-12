@@ -5,16 +5,17 @@ permalink: /skills/
 ---
 
 <!doctype html>
-{% for skill in site.data.skills %}
-<div class="skill-group">
-  <div class="skill-header">{{ skill.header }}</div>
-  <ul class="skill-list">
-    {% for s in skill.list %}
-    <div class="skill">{{ s }}</div>
-    {% endfor %} {% for i in skill.img %}
-    <img class="skill-img" src={{ i }}/>
-    {% endfor %}
-  </ul>
+<div class="skills-wrapper">
+  {% for skill in site.data.skills %}
+  <div class="skill-group">
+    <div class="skill-header">{{ skill.header }}</div>
+    <ul class="skill-list">
+      {% for i in skill.pairs %}
+      <img class="skill-img" src={{ i[1] }} />
+      <div class="skill-text">{{ i[0] }}</div>
+      {% endfor %}
+    </ul>
+  </div>
+  <br />
+  {% endfor %}
 </div>
-<br />
-{% endfor %}

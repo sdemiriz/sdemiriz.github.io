@@ -1,31 +1,17 @@
-- header: "Languages I can comfortably work with"
-  list: ["Python", "R", "Bash", "SQL", "Julia"]
-  img:
-    [
-      "/assets/python.svg",
-      "/assets/R.svg",
-      "/assets/bash.svg",
-      "/assets/sql.svg",
-      "/assets/julia.svg",
-    ]
+- header: "Programming languages"
+  pairs: [["Python", "/assets/python.svg"], ["R", "/assets/R.svg"], ["Bash", "/assets/bash.svg"], ["SQL", "/assets/sql.svg"]]
 
-- header: "Good software development practices I use"
-  list: ["Version control", "Unit testing", "Documentation"]
-  img:
-    ["/assets/git.svg", "/assets/unit-testing.png", "/assets/documentation.svg"]
+- header: "Good software development practices"
+  pairs: [["Version control", "/assets/git.svg"], ["Unit testing", "/assets/unit-testing.png"], ["Documentation","/assets/documentation.svg"]]
 
-- header: "Workflow management tools I can work with"
-  list: ["Snakemake", "Nextflow", "SLURM"]
-  img: ["/assets/snakemake.svg", "/assets/nextflow.svg", "/assets/slurm.svg"]
+- header: "Workflow management software and systems"
+  pairs: [["Snakemake","/assets/snakemake.svg"], ["Nextflow", "/assets/nextflow.svg"], ["SLURM", "/assets/slurm.svg"]]
 
-- header: "Operating systems and cloud infrastructure I am familiar with"
-  list: ["Linux", "MacOS", "Amazon Web Services"]
-  img: ["/assets/linux.svg", "/assets/macos.svg", "/assets/aws.svg"]
+- header: "Operating systems and cloud services"
+  pairs: [["Linux", "/assets/linux.svg"], ["MacOS", "/assets/macos.svg"], ["Amazon Web Services", "/assets/aws.svg"]]
 
-- header: "Web content development tools I can work with"
-  list: ["HTML", "CSS", "Jekyll"]
-  img: ["/assets/html.svg", "/assets/css.svg", "/assets/jekyll.svg"]
+- header: "Web development tools"
+  pairs: [["HTML", "/assets/html.svg"], ["CSS", "/assets/css.svg"], ["Jekyll", "/assets/jekyll.svg"]]
 
-- header: "Low level languages I have experience working with"
-  list: ["C", "C++"]
-  img: ["/assets/C.svg", "/assets/Cpp.svg"]
+- header: "Low level languages"
+  pairs: [["C", "/assets/C.svg"], ["C++", "/assets/Cpp.svg"]]

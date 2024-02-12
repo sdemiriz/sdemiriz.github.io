@@ -241,7 +241,7 @@ footer-col-2 {
   }
 }
 
-.experiencewrapper {
+.experience-wrapper {
   background: $wrapper-color;
   padding: $spacing-unit;
 }
@@ -275,4 +275,23 @@ footer-col-2 {
   list-style-type: disc;
   line-height: $base-line-height * $base-font-size;
   color: $text-color;
+}
+
+.skills-wrapper {
+  background: $wrapper-color;
+  padding: $spacing-unit;
+}
+
+.skill-header {
+  @include relative-font-size(1.5);
+}
+
+.skill-img {
+  width: $spacing-unit * 3;
+  margin-right: $spacing-unit;
+  margin-top: $spacing-unit / 2;
+}
+
+.skill-text {
+  @include relative-font-size(1.25);
 }
