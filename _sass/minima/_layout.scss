@@ -241,8 +241,13 @@ footer-col-2 {
   }
 }
 
+.experiencewrapper {
+  background: $wrapper-color;
+  padding: $spacing-unit;
+}
+
 .experience {
-  background: #5e81ac;
+  @include relative-font-size(1.25);
   margin-bottom: $spacing-unit / 2;
   padding: $spacing-unit / 2;
 
@@ -250,14 +255,14 @@ footer-col-2 {
 }
 
 .workplace {
-  @include relative-font-size(1.25);
+  @include relative-font-size(2);
   margin-top: $spacing-unit / 2;
   letter-spacing: -1px;
   color: #d8dee9;
 }
 
 .date {
-  @include relative-font-size(1.1);
+  @include relative-font-size(1.25);
   margin-bottom: $spacing-unit / 2;
   letter-spacing: -1px;
   color: #d8dee9;
