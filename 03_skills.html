@@ -11,8 +11,10 @@ permalink: /skills/
     <div class="skill-header">{{ skill.header }}</div>
     <ul class="skill-list">
       {% for i in skill.pairs %}
-      <img class="skill-img" src={{ i[1] }} />
-      <div class="skill-text">{{ i[0] }}</div>
+      <div class="skills-object">
+        <img class="skill-img" src={{ i[1] }} />
+        <div class="skill-text">{{ i[0] }}</div>
+      </div>
       {% endfor %}
     </ul>
   </div>

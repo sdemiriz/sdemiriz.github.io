@@ -8,7 +8,7 @@
   pairs: [["Snakemake","/assets/snakemake.svg"], ["Nextflow", "/assets/nextflow.svg"], ["SLURM", "/assets/slurm.svg"]]
 
 - header: "Operating systems and cloud services"
-  pairs: [["Linux", "/assets/linux.svg"], ["MacOS", "/assets/macos.svg"], ["Amazon Web Services", "/assets/aws.svg"]]
+  pairs: [["Linux", "/assets/linux.svg"], ["MacOS", "/assets/macos.svg"], ["AWS", "/assets/aws.svg"]]
 
 - header: "Web development tools"
   pairs: [["HTML", "/assets/html.svg"], ["CSS", "/assets/css.svg"], ["Jekyll", "/assets/jekyll.svg"]]

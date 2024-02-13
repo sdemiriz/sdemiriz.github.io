@@ -285,14 +285,35 @@ footer-col-2 {
 
 .skill-header {
   @include relative-font-size(1.5);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: right;
+  background: #434c5e;
+  border-radius: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 2;
+  margin-right: $spacing-unit;
+}
+
+.skill-object {
+  display: flex;
 }
 
 .skill-img {
-  width: $spacing-unit * 3;
+  width: $spacing-unit * 3.5;
   margin-right: $spacing-unit;
+  margin-left: $spacing-unit;
   margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 3;
 }
 
 .skill-text {
   @include relative-font-size(1.25);
+  text-align: center;
+  background: #5e81ac;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
