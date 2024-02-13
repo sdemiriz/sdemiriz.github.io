@@ -242,6 +242,15 @@ footer-col-2 {
   }
 }
 
+.home-wrapper {
+  background: $wrapper-color;
+  padding: $spacing-unit;
+}
+
+.home-text {
+  color: $text-color;
+}
+
 .experience-wrapper {
   background: $wrapper-color;
   padding: $spacing-unit;
