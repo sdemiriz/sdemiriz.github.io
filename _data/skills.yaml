@@ -2,7 +2,7 @@
   pairs: [["Python", "/assets/python.svg"], ["R", "/assets/R.svg"], ["Bash", "/assets/bash.svg"], ["SQL", "/assets/sql.svg"]]
 
 - header: "Good software development practices"
-  pairs: [["Version control", "/assets/git.svg"], ["Unit testing", "/assets/unit-testing.png"], ["Documentation","/assets/documentation.svg"]]
+  pairs: [["Version control", "/assets/git.svg"], ["Unit testing", "/assets/unit-testing.svg"], ["Documentation","/assets/documentation.svg"]]
 
 - header: "Workflow management software and systems"
   pairs: [["Snakemake","/assets/snakemake.svg"], ["Nextflow", "/assets/nextflow.svg"], ["SLURM", "/assets/slurm.svg"]]
