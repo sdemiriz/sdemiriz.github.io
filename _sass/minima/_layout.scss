@@ -107,8 +107,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color;
+  border-top: 1px solid $brand-color;
   padding: $spacing-unit 0;
+  background: #3b4252;
 }
 
 .footer-heading {
@@ -120,11 +121,11 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  color: $text-color;
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
+  @include relative-font-size(1);
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }

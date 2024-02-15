@@ -134,24 +134,20 @@ h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $text-color;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: #81a1c1;
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
-    .username {
-      text-decoration: underline;
-    }
   }
 }
 
