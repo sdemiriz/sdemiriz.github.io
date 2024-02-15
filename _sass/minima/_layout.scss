@@ -256,6 +256,13 @@ footer-col-2 {
   color: $text-color;
 }
 
+.home-logo {
+  width: $spacing-unit * 8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .experience-wrapper {
   background: $wrapper-color;
   padding: $spacing-unit;
@@ -335,4 +342,27 @@ footer-col-2 {
   border-radius: 10px;
   margin-left: $spacing-unit / 3;
   margin-right: $spacing-unit / 3;
+}
+
+.publications-wrapper {
+  background: $wrapper-color;
+  padding: $spacing-unit;
+}
+
+.title {
+  @include relative-font-size(1.5);
+}
+
+.authors {
+  @include relative-font-size(1.25);
+}
+
+.link {
+  @include relative-font-size(1.25);
+  background: #4c566a;
+  float: right;
+  padding: $spacing-unit / 3;
+  border-radius: $spacing-unit / 2;
+  margin-bottom: $spacing-unit;
+  margin-left: $spacing-unit * 12;
 }

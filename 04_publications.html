@@ -5,11 +5,13 @@ permalink: /publications/
 ---
 
 <!doctype html>
-{% for pub in site.data.publications %}
-<div class="publication">
-  <div class="title">{{ pub.title }}</div>
-  <div class="authors">{{ pub.authors }}</div>
-  <a class="link" href={{ pub.link }}>{{ pub.access }}</a>
+<div class="publications-wrapper">
+  {% for pub in site.data.publications %}
+  <div class="publication">
+    <div class="title">{{ pub.title }}</div>
+    <div class="authors">{{ pub.authors }}</div>
+    <a class="link" href={{ pub.link }}>{{ pub.access }}</a>
+  </div>
+  <br />
+  {% endfor %}
 </div>
-<br />
-{% endfor %}
