@@ -331,7 +331,7 @@ footer-col-2 {
   @include relative-font-size(1.25);
   text-align: center;
   background: #5e81ac;
-  margin-left: 20px;
-  margin-right: 20px;
   border-radius: 10px;
+  margin-left: $spacing-unit / 3;
+  margin-right: $spacing-unit / 3;
 }
