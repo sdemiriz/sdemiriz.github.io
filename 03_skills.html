@@ -9,14 +9,14 @@ permalink: /skills/
   {% for skill in site.data.skills %}
   <div class="skill-group">
     <div class="skill-header">{{ skill.header }}</div>
-    <ul class="skill-list">
+    <div class="skill-list">
       {% for i in skill.pairs %}
       <div class="skills-object">
         <img class="skill-img" src={{ i[1] }} />
         <div class="skill-text">{{ i[0] }}</div>
       </div>
       {% endfor %}
-    </ul>
+    </div>
   </div>
   <br />
   {% endfor %}
